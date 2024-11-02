@@ -1,9 +1,24 @@
 {
-  "spider": "https://gitlab.com/yszb/888/-/raw/main/0.jar",
+  "spider": "https://gitlab.com/yszb/888/-/raw/main/0.jar;md5;12f37c8466d7133438b2560d8e1b190e",
   "logo": "http://108.181.15.23:88/chfs/shared/image/caishen3.gif",
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "warningText": "💖周老大提醒：📢没事多清理缓存噢",
   "lives": [
+    {
+      "name": "老大电器修理专享",
+      "type": 0,
+      "url": "https://gitlab.com/yszb/888/-/raw/main/dszb.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "ETH2(JS)",
+      "api": "https://guot55.serv00.net/zbcs.php",
+      "type": 3,
+      "ua": "okhttp/4.12.0"
+    },
     {
       "group": "redirect",
       "channels": [
@@ -18,8 +33,43 @@
   ],
   "sites": [
     {
+      "key": "南瓜",
+      "name": "💕周老大电气修理祝你观影开心┃南瓜App💕",
+      "type": 3,
+      "api": "csp_NanGua",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": 2,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "Dygang",
+      "name": "💕周老大电气修理祝你观影开心┃电影港App💕",
+      "type": 3,
+      "api": "csp_Dygang"
+    },
+    {
+      "key": "柠檬",
+      "name": "💕周老大电气修理祝你观影开心┃App💕",
+      "type": 3,
+      "api": "csp_Nmvod",
+      "playerType": 1,
+      "ext": "eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="
+    },
+    {
+      "key": "文采",
+      "name": "💕周老大电气修理祝你观影开心┃App💕",
+      "type": 3,
+      "api": "csp_Jpys",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "天天",
-      "name": "✨天天┃App",
+      "name": "💕周老大电气修理祝你观影开心┃App💕",
       "type": 3,
       "api": "csp_TTian",
       "playerType": 1,
@@ -27,23 +77,15 @@
     },
     {
       "key": "热播",
-      "name": "🏮热播┃App",
+      "name": "💕周老大电气修理祝你观影开心┃App💕",
       "type": 3,
       "api": "csp_Rebot",
       "playerType": 1,
       "ext": "caHR0cDovL3YucmJvdHYuY24="
     },
     {
-      "key": "柠檬",
-      "name": "💕柠檬┃App",
-      "type": 3,
-      "api": "csp_Nmvod",
-      "playerType": 1,
-      "ext": "eaHR0cHM6Ly9hcGkuY25tY29tLmNvbS93ZWJjbG91ZC9yZWxheS5waHA/dXJsPQ=="
-    },
-    {
       "key": "AI4",
-      "name": "🍁AI4┃APP",
+      "name": "💕周老大电气修理祝你观影开心┃App💕",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
@@ -54,7 +96,7 @@
     },
     {
       "key": "Bdys_spider",
-      "name": "🎟️哔滴┃无搜索",
+      "name": "💕周老大电气修理祝你观影开心┃App💕",
       "api": "csp_Bdys01",
       "type": 3,
       "filterable": 1,
@@ -64,7 +106,7 @@
     },
     {
       "key": "快看",
-      "name": "💕快看┃直连",
+      "name": "💕周老大电气修理祝你观影开心┃App💕",
       "type": 3,
       "api": "csp_Kuaikan",
       "searchable": 1,
@@ -74,7 +116,7 @@
     },
     {
       "key": "360_spider",
-      "name": "💕360┃解析",
+      "name": "💕周老大电气修理祝你观影开心┃App💕",
       "api": "csp_SP360",
       "type": 3,
       "filterable": 1,
@@ -85,7 +127,7 @@
     },
     {
       "key": "csp_Auete",
-      "name": "💕Auete┃无搜索",
+      "name": "💕周老大电气修理祝你观影开心┃App💕",
       "type": 3,
       "api": "csp_Auete",
       "searchable": 1,
@@ -95,23 +137,13 @@
     },
     {
       "key": "NoSearch_csp_BBB",
-      "name": "💕哔哩哔哩",
+      "name": "💕周老大电气修理祝你观影开心┃App💕",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 1,
       "ext": "naHR0cHM6Ly93d3cucWlhb2ppOC5jb20vdHZib3gvYmlsaS5qc29u"
-    },
-    {
-      "key": "push_agent",
-      "name": "💕推送",
-      "type": 3,
-      "api": "csp_PushAgent",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://www.qiaoji8.com/jar1/token.txt"
     }
   ],
   "parses": [
@@ -567,7 +599,7 @@
       ]
     }
   ],
-  "ads": [
+ "ads": [
     "mimg.0c1q0l.cn",
     "www.googletagmanager.com",
     "www.google-analytics.com",
